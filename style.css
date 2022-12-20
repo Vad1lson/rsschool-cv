@@ -21,10 +21,24 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding: 0 20px;
+    padding: 0px 20px;
     line-height: 50px;
-    transition: .3s;
 }
-html {
-    scroll-behavior: smooth; 
+.nav-link {
+    transition: .3s;
   }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
+}
