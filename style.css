@@ -24,9 +24,10 @@ body {
     padding: 0px 20px;
     line-height: 50px;
 }
+
 .nav-link {
     transition: .3s;
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -41,4 +42,13 @@ html {
 
 .section-item a:hover {
     color: #4d2323;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
 }
