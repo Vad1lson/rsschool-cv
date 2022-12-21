@@ -8,6 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #000000;
 }
 
 
@@ -28,6 +32,15 @@ body {
 .nav-link {
     transition: .3s;
 }
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  
+  .link:hover {
+    color: #5d7260;
+  }
 
 html {
     scroll-behavior: smooth;
@@ -52,3 +65,8 @@ html {
 .section {
     width: 50%;
 }
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
