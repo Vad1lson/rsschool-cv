@@ -3,6 +3,7 @@
 }
 
 body {
+    background: url(/assets/img//background.jpg);
     font-family: 'Roboto', sans-serif;
     border: 1px solid red;
     display: flex;
@@ -11,7 +12,24 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
+}
+
+.photo-section {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-column-gap: 10px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 250x;
+    float: left;
+}
+.profile{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 
@@ -25,22 +43,20 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding: 0px 20px;
-    line-height: 50px;
 }
 
 .nav-link {
     transition: .3s;
-}
-.link {
+    padding: 0px 10px;
+    line-height: 50px;
     text-decoration: none;
-    color: #829985;
+    color: #f9f9f9;
     transition: color 0.5s;
-  }
-  
-  .link:hover {
-    color: #5d7260;
-  }
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
 
 html {
     scroll-behavior: smooth;
@@ -62,11 +78,8 @@ html {
     flex-wrap: wrap;
 }
 
-.section {
-    width: 50%;
-}
 @media (max-width: 768px) {
     .section {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
